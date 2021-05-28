@@ -1,0 +1,1 @@
+<view><view class="status_bar"><view class="top_view"></view></view><view class="videoBox"><video id="myvideo" autoplay="true" controls="true" objectFit="fill" src="{{videoSrc}}"></video></view><cover-view data-event-opts="{{[['tap',[['closeVideoPlay',['$event']]]]]}}" class="close" bindtap="__e">╳</cover-view></view>

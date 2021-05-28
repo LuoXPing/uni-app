@@ -1,0 +1,125 @@
+
+page{
+		position: relative;
+		width: 100%;
+		height: 100%;
+		background-color: #363c52;
+}
+	/* -------------------------------- */
+.videoBox{
+		position: absolute;
+		width: 100%;
+		height: 78%;
+		left: 0;
+		margin-top: 160rpx;
+		margin-bottom: 120rpx;
+}
+.videoBox #myvideo{
+		width: 100%;
+		height: 100%;
+}
+	/* ------------------------------ */
+.header{
+		width: 100%;
+		height: 115rpx;
+		line-height: 100rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-sizing: border-box;
+		        box-sizing: border-box;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+}
+.imgBox {
+		width: 350rpx;
+		height: 100%;
+}
+.header .imgBox image{
+		width: 64rpx;
+		height: 64rpx;
+		border-radius: 50%;
+		vertical-align: middle;
+}
+.header .name{
+		color: #fff;
+		font-size: 30rpx;
+		padding-left: 10rpx;
+}
+.header .focusBox{
+		width: 350rpx;
+		height: 100%;
+		text-align: right;
+}
+.header .focus{
+		border: 1px solid #fdd100;
+		color: #fdd100;
+		width: 120rpx;
+		display: inline-block;
+		padding:0 5rpx;
+		text-align: center;
+		line-height: 60rpx;
+		font-size: 30rpx;
+		margin-right: 20rpx ;
+}
+	/* -------------侧边图标--------------- */
+.number{
+		font-size: 25rpx;
+		width: 100rpx;
+		text-align: center;
+		color: #fff;
+		position: absolute;
+		right: 20rpx;
+}
+.number:nth-of-type(1){
+		top: 600rpx;
+}
+.number:nth-of-type(2){
+		top: 730rpx;
+}
+.number:nth-of-type(3){
+		top: 840rpx;
+}
+.icon{
+		width: 90rpx;
+		height: 90rpx;
+		position: absolute;
+		right: 20rpx;
+}
+.icon:nth-of-type(1){
+		top: 500rpx;
+}
+.icon:nth-of-type(2){
+		top: 640rpx;
+}
+.icon:nth-of-type(3){
+		top: 760rpx;
+}
+	/* ---------------------------- */
+.describeContent{
+		width: 450rpx;
+		height: 155rpx;
+		line-height: 40rpx;
+		color: #ebebeb;
+		font-size: 30rpx;
+		position: absolute;
+		left: 30rpx;
+		bottom: 150rpx;
+		overflow: hidden;
+		-o-text-overflow: ellipsis;
+		   text-overflow: ellipsis;
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 4;
+		 white-space:normal;
+		 word-wrap: break-word;/* 允许单词内换行 */
+		 word-break: break-all; /* 允许长单词换行到下一行 */
+}
+

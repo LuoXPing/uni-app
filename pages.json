@@ -1,0 +1,76 @@
+{
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path" : "pages/index",
+            "style" : {
+                "navigationStyle" : "custom"
+            }
+        },
+		{
+            "path" : "pages/login",
+            "style" : {
+                "navigationBarTitleText" : "登录"
+            }
+        },
+        {
+            "path" : "pages/register",
+            "style" : {
+                "navigationBarTitleText" : "注册"
+            }
+        },
+       
+        {
+            "path" : "pages/person",
+            "style" : {
+                "navigationStyle" : "custom"
+            }
+        },
+        {
+            "path" : "pages/comment",
+            "style" : {
+                "navigationStyle" : "custom"
+            }
+        },
+        {
+            "path" : "pages/videoUpload/videoUpload",
+            "style" : {
+                "navigationBarBackgroundColor" : "#161923",
+                "navigationBarTextStyle" : "white",
+                "navigationBarTitleText" : "发布",
+                "titleNView" : {
+                    "titleSize" : "16px"
+                }
+            }
+        },
+        {
+            "path" : "pages/videoPlay",
+            "style" : {
+                "navigationStyle" : "custom"
+            }
+        }
+        ,{
+            "path" : "pages/modify",
+            "style" : {
+				"navigationBarTitleText" : "修改"
+			}
+        }
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "uni-app",
+        "navigationBarBackgroundColor" : "#F8F8F8",
+        "backgroundColor" : "#F8F8F8"
+    },
+    "condition" : {
+        //模式配置，仅开发期间生效
+        "current" : 0, //当前激活的模式(list 的索引项)
+        "list" : [
+            {
+                "name" : "", //模式名称
+                "path" : "pages/index/login", //启动页面，必选
+                "query" : "" //启动参数，在页面的onLoad函数里面得到
+            }
+        ]
+    }
+}

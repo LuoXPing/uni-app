@@ -1,0 +1,13 @@
+{
+  "navigationBarBackgroundColor": "#161923",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "发布",
+  "titleNView": {
+    "titleSize": "16px"
+  },
+  "usingComponents": {
+    "uni-list": "/components/uni-list/uni-list",
+    "uni-list-item": "/components/uni-list-item/uni-list-item",
+    "uni-icon": "/components/uni-icons/uni-icons"
+  }
+}

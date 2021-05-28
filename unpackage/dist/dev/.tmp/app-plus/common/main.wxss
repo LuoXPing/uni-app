@@ -1,0 +1,90 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+.clearfix::before,
+.clearfix::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.status_bar {  
+    height: var(--status-bar-height);  
+    width: 100%;  
+    background-color: #F8F8F8;
+}
+.top_view {  
+    height: var(--status-bar-height);  
+    width: 100%;  
+    position: fixed;  
+    background-color: #F8F8F8;  
+    top: 0;  
+    z-index: 999;
+}
+
+@font-face {
+	font-family: "iconfont";
+	/* //at.alicdn.com/t/font_1434292_ajt9704xq4w.ttf */
+	src: url('https://at.alicdn.com/t/font_1434292_dfj9oh1ftu.ttf') format('truetype');
+	
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-left:before {
+  content: "\E645";
+}
+
+.icon-xiangji:before {
+  content: "\E63D";
+}
+
+.icon-eye:before {
+  content: "\E62B";
+}
+
+.icon-nan:before {
+  content: "\E653";
+}
+
+.icon-nv:before {
+  content: "\E654";
+}
+
+.icon-xiaoxi:before {
+  content: "\E648";
+}
+
+.icon-heart:before {
+  content: "\E787";
+}
+
+.icon-dui:before {
+  content: "\E607";
+}
+
+.icon-touxiang:before {
+  content: "\E65F";
+}
+
+

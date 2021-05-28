@@ -1,0 +1,89 @@
+
+page{
+		width: 100%;
+		height: 100%;
+		background: #363c52;
+}
+	/*------------- 头像-------- */
+.head{
+		color: #fff;
+		text-align: center;
+		padding: 60rpx 0 40rpx;
+}
+.head .headImg{
+		width: 153rpx;
+		height: 153rpx;
+		border-radius: 50%;
+		margin-bottom: 20rpx;
+}
+	/* ------输入框------------ */
+.inputBox{
+		position: absolute;
+		left: 65rpx;
+		top: 260rpx;
+		width: 100%;
+		height: 630rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-flex-wrap: wrap;
+		    -ms-flex-wrap: wrap;
+		        flex-wrap: wrap;
+}
+.inputBox .item{
+		width: 85%;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+}
+.inputBox label{
+		font-size: 35rpx;
+		color: #FFFFFF;
+		-webkit-box-flex: 1;
+		-webkit-flex: 1;
+		    -ms-flex: 1;
+		        flex: 1;
+}
+.inputBox input{
+		display: inline-block;
+		-webkit-box-flex: 5;
+		-webkit-flex: 5;
+		    -ms-flex: 5;
+		        flex: 5;
+		height: 80rpx;
+		background-color: #4a5064;
+		padding-left:30rpx ;
+		color: #FFFFFF;
+}
+.inputBox .accountDis{
+		color: #747888;
+}
+.item radio-group{
+		-webkit-box-flex: 5;
+		-webkit-flex: 5;
+		    -ms-flex: 5;
+		        flex: 5;
+}
+	/*---------------- 确认按钮 ---------------*/
+.modifybtn{
+		width: 656rpx;
+		height: 80rpx;
+		line-height: 80rpx;
+		color: #b4e1ff;
+		background-color: #0d6fb8;
+		position: absolute;
+		top: 900rpx;
+		left: 65rpx;
+}
+
+

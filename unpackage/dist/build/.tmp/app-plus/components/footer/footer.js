@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/footer/footer"],{"0085":function(e,t,o){"use strict";o.r(t);var n=o("ea79"),r=o.n(n);for(var u in n)"default"!==u&&function(e){o.d(t,e,function(){return n[e]})}(u);t["default"]=r.a},2075:function(e,t,o){},"3c72":function(e,t,o){"use strict";var n=o("2075"),r=o.n(n);r.a},"8d33":function(e,t,o){"use strict";var n=function(){var e=this,t=e.$createElement;e._self._c},r=[];o.d(t,"a",function(){return n}),o.d(t,"b",function(){return r})},e172:function(e,t,o){"use strict";o.r(t);var n=o("8d33"),r=o("0085");for(var u in r)"default"!==u&&function(e){o.d(t,e,function(){return r[e]})}(u);o("3c72");var i=o("2877"),a=Object(i["a"])(r["default"],n["a"],n["b"],!1,null,null,null);t["default"]=a.exports},ea79:function(e,t,o){"use strict";(function(e,o){Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var n={data:function(){return{}},computed:{Code:function(){return"index"==this.$store.state.pageCode}},methods:{videoCapture:function(){var t=plus.camera.getCamera(),n=t.supportedVideoResolutions[0];t.startVideoCapture(function(t){e.redirectTo({url:"../../videoUpload/videoUpload?path=".concat(t)})},function(e){console.log(o("Capture video failed: "+e.message," at components\\footer\\footer.vue:44"))},{resolution:n,format:"3gp",videoMaximumDuration:15,optimize:!0})},redirctToIndex:function(){e.redirectTo({url:"index"}),this.$store.commit("ChangeCode","index")},redirctToSelf:function(){e.redirectTo({url:"person"}),this.$store.commit("ChangeCode","person")}}};t.default=n}).call(this,o("6e42")["default"],o("0de9")["default"])}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/footer/footer-create-component',
+    {
+        'components/footer/footer-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('6e42')['createComponent'](__webpack_require__("e172"))
+        })
+    },
+    [['components/footer/footer-create-component']]
+]);                

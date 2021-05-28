@@ -1,0 +1,6 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "footer-nav": "/components/footer/footer"
+  }
+}
